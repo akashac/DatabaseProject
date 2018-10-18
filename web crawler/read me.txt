@@ -1,0 +1,18 @@
+Prerequisites
+Softwares:
+Node JS, MongoDB, Any Browser
+Nodemon
+Install nodemon using command line 
+npm install –g nodemon
+
+
+Running the app:
+
+You need to open Command Line or Power Shell Window in “foodworld” folder.
+Start the MongoDB server.
+Type “nodemon” command to start the server.
+Open the browser.
+To connect the local server type “loacalhost:9090” in url.
+To get the dishes from website, click on “Get Dishes”.
+
+

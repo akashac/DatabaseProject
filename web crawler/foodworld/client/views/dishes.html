@@ -1,0 +1,27 @@
+<div class="w3_agile_recipe-grid">
+    <div class="col-md-12 menu-grids" ng-init="getDishes()">
+        <div class="menu-text" ng-repeat="dish in dishes" >
+            <div class="menu-text-left">
+                <div class="rep-w3l-text">
+                    <h4> {{dish.dishName}}</h4>
+                    <br><br>
+                    <h3><u>Ingredients</u></h3><br>
+                    <h6>{{dish.dishIngredients}}</h6>
+                    <br>
+                    <h5><u>Restaurant</u></h5><br>
+                    <h4>{{dish.restaurantName}}</h4>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="menu-text-right">
+                <h4>Price : {{dish.dishPrice}} </h4>
+                <br><br><br>
+                <a class="btn btn-primary" href="#/dishes/details/{{dish._id}}">View Details</a>
+            </div>
+            <div class="clearfix"> </div>
+             <div class="col-md-12">
+                <hr style="height:30px">
+            </div>
+        </div>
+    </div>
+</div>
